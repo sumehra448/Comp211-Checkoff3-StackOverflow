@@ -1,4 +1,9 @@
 // Program will crash
+//INSTRUCTION TO RUN PROGRAM:
+//Normally, protections are turned on by default (such as stack canaries, etc..), which can stop the overflow before we see it. To turn them OFF, type this when compiling
+//gcc -fno-stack-protector -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -o name filename
+//To turn canaries ON, use this
+//gcc -fstack-protector-all -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -o name filename
 #include <stdio.h>
 #include <string.h>
 
