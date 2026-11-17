@@ -1,4 +1,5 @@
 // Program will run quietly
+//To run program, use instructions for excrash.c
 #include <stdio.h>
 #include <string.h>
 
